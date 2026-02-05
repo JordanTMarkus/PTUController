@@ -1,0 +1,89 @@
+/* ===== Global Background ===== */
+
+QPushButton:disabled {
+    background-color: #A0A0A0;
+}
+
+QSpinBox:disabled {
+    background-color: #A0A0A0;
+}
+
+QPushButton#PanHeadingPB {
+    background-color: #A0A0A0;
+}
+
+QWidget {
+    background-color: #2E2F33;
+}
+
+/* ===== Buttons ===== */
+QPushButton {
+    background-color: #52A6C7;
+    color: #F2F2F2;
+    border: 1px solid #2F6F88;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+QPushButton:hover {
+    background-color: #6BB6D1;
+}
+
+QPushButton:pressed {
+    background-color: #3E8FAE;
+}
+
+/* Specific buttons */
+QPushButton#PanHeadingPB,
+QPushButton#TiltHeadingPB {
+    background-color: #52A6C7;
+}
+
+QPushButton#StopPB {
+    background-color: #C94A3A;
+    border-color: #A83A2E;
+}
+
+/* ===== Labels ===== */
+QLabel {
+    color: #F2F2F2;
+}
+
+QLabel#NotConnectedLabel {
+    background-color: #C94A3A;
+    color: white;
+    padding: 4px;
+}
+
+/* ===== Frames / Panels ===== */
+QFrame#frame,
+QFrame#frame_2,
+QFrame#frame_10 {
+    background-color: #3A3C42;
+    border-radius: 6px;
+}
+
+QLabel#label_7,
+QLabel#label_9,
+QLabel#PanHeadingLabel,
+QLabel#TiltHeadingLabel {
+    background-color: #2E2F33;
+    padding: 4px;
+    color: white;
+}
+
+/* ===== Status ===== */
+QWidget#NotConnectedWidget {
+    background-color: #C94A3A;
+}
+
+QFrame#frame,
+QFrame#frame_2,
+QFrame#frame_10
+{
+    background-color: #2E2F33;
+}
+
+QSpinBox{
+    color: white;
+}
