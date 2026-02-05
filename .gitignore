@@ -1,0 +1,70 @@
+# ------------------------------
+# Build directories
+# ------------------------------
+build/
+build-*/
+*/build/
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.so.*
+*.dll
+*.exe
+
+# ------------------------------
+# Qt / qmake generated files
+# ------------------------------
+Makefile
+Makefile.*
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+.qmake.stash
+*.pro.user
+*.pro.user.*
+
+# ------------------------------
+# Qt Creator
+# ------------------------------
+*.autosave
+*.qmlc
+*.qmlproject.user
+
+# ------------------------------
+# Protobuf generated files
+# (Generated from .proto — should be regenerated)
+# ------------------------------
+*.pb.h
+*.pb.cc
+*.pb.o
+
+# ------------------------------
+# CMake (just in case)
+# ------------------------------
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# ------------------------------
+# Logs / temp files
+# ------------------------------
+*.log
+*.tmp
+*.swp
+*~
+
+# ------------------------------
+# OS / editor noise
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Git internals (NEVER commit)
+# ------------------------------
+.git/
+
